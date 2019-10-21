@@ -1,0 +1,13 @@
+<subnet xmlns="http://yang-central.org/ns/example/dhcp"  xmlns:dhcp="http://yang-central.org/ns/example/dhcp">
+  <net>10.254.239.0/27</net>
+  <range>
+    <dynamic-bootp/>
+    <low>10.254.239.10</low>
+    <high>10.254.239.20</high>
+  </range>
+  <dhcp-options>
+    <router>rtr-239-0-1.example.org</router>
+    <router>rtr-239-0-2.example.org</router>
+  </dhcp-options>
+  <max-lease-time>1200</max-lease-time>
+</subnet>

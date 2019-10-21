@@ -1,0 +1,5 @@
+<input>
+  <clock-settings>1992-12-12T11:11:11</clock-settings>
+  <utc>true</utc>
+  <sync-hardware-clock>true</sync-hardware-clock>
+</input>

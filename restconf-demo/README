@@ -1,0 +1,11 @@
+Small example scrtipt to demo RESTCONF in ConfD.
+
+1. Build and start the basic restconf example fomm the ConfD example set.
+
+$ cd <confd dir>/examples.confd/restconf/basic
+$ make all start
+
+2. In another terminal, start the restconf-demo script.
+$ ./restconf-demo.sh 8008
+
+3. As the scrip runs, hit <enter> to move forward.
