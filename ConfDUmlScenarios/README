@@ -1,0 +1,19 @@
+In this directory you can find source code and resources related to
+ConfD Workshop(s):
+
+Data Provider Sequence Diagrams
+Confd CDB Subscriber Sequence diagrams
+
+See LICENSE file in the root of this GIT repository.
+
+The source code (Groovy scripts generating PlantUML Diagrams) is located in
+the 'src' directory.
+
+To generate UML diagrams, Groovy programming language has to be installed.
+(See https://groovy-lang.org/, https://groovy-lang.org/install.html)
+
+Go to src/confduml directory and run command:
+
+groovy UmlGenerator.groovy
+
+See generated PlantUML scripts (txt files) and diagrams (PNG files).
